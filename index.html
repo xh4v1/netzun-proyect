@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/69838173ff.js" crossorigin="anonymous"></script>
+    <title>Proyecto</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center bg-light py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Encuesta</a></li>
+            </ul>
+        </header>
+
+        <div class="d-flex justify-content-center mt-5 text-center">
+            <h1 class="display-3 text-primary">Bienvenido a la encuesta.</h1>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3 text-center">
+            <h4 class="display-4">Ingrese al sistema</h4>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="box">
+                <div class="d-flex justify-content-center">
+                    <form>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa-sharp fa-solid fa-user"></i></span>
+                            </div>
+                            <input type="text" name="usuario" class="form-control input-user" placeholder="Usuario">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+                            </div>
+                            <input type="text" name="pass" class="form-control input-user" placeholder="Contraseña">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="checkRecuerda">
+                                <label for="checkRecuerda" class="custom-control-label">He leido y acepto los <a
+                                        href="">Terminos y Condiciones</a></label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" name="Registrar" class="btn btn-primary">Registrar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <h6 class="display-4">o</h6>
+        </div>
+
+        <div class="d-flex text-center justify-content-center mb-3">
+            <h6 class="display-4">rellene la encuesta de manera anónima.</h6>
+        </div>
+
+        <div class="box">
+
+            <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                    <label for="name" class="form-label">Nombres:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="name" class="form-label">Apellidos:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+            </div>
+
+            <div class="row mt-3 ">
+                <div class="col-12">
+                    <label class="form-label">Email:</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Email" aria-describedby="email-desc">
+                    </div>
+                    <div id="email-desc" class="form-text">
+                        No compartiremos tus datos personales. Solo las preferencias que elijas a continuacion:
+                    </div>
+
+                    <h2 class="mt-3 mb-3 display-4 text-primary text-center">Renovacion de productos</h2>
+
+                    <div class="mb-4">
+                        <p class="form-label">1. ¿Como calificaria la calidad de los productos que ofrecemos?</p>
+                        <div>
+                            <div class="row d-flex justify-content-around">
+                                <div class="col-4 col-lg-2 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="muymala2"
+                                        value="option1">
+                                    <label class="form-check-label" for="muymala2">Muy mala</label>
+                                </div>
+                                <div class="col-4 col-lg-1 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="mala2"
+                                        value="option2">
+                                    <label class="form-check-label" for="mala2">Mala</label>
+                                </div>
+                                <div class="col-4 col-lg-1 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="regulara2"
+                                        value="option1">
+                                    <label class="form-check-label" for="regulara2">Regular</label>
+                                </div>
+                                <div class="col-4 col-lg-1 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="buena2"
+                                        value="option2">
+                                    <label class="form-check-label" for="buena2">Buena</label>
+                                </div>
+                                <div class="col-4 col-lg-2 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="muybuena2"
+                                        value="option1">
+                                    <label class="form-check-label" for="muybuena2">Muy buena</label>
+                                </div>
+                                <div class="col-4 col-lg-1 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="excelenta2"
+                                        value="option1">
+                                    <label class="form-check-label" for="excelenta2">Excelente</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <p class="form-label">2. Elija uno o más secciones de nuestra tienda que visita frecuentemente:
+                        </p>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" value="" id="frutas">
+                            <label class="form-check-label" for="frutas">Frutas y verduras</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" value="" id="articulo">
+                            <label class="form-check-label" for="articulo">Articulos y utilidades</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" value="" id="ropa">
+                            <label class="form-check-label" for="ropa">Ropa y zapatos</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <p class="form-label">3. Si desea, agregue un comentario o sugerencia que nos sirva como critica
+                            para ser cada vez mejores:</p>
+                        <textarea class="form-control" id="interesCurso" rows="2"></textarea>
+                    </div>
+
+                    <div class="row mb-4">
+                        <p class="form-label w-100 ml-3">4. Como agradecimiento, elija un cupon válido para nuestras tiendas:</p>
+                        <div class="col-6 col-md-3">
+                            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header bg-primary text-center text-light">Cúpon #1</div>
+                                <div class="card-body text-primary text-center">
+                                    <h5 class="card-title">5$</h5>
+                                    <p class="card-text">En la seccion de alimentos, frutas y verduras por un consumo mayor a 15$</p>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <input class="ml-1 form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-3">
+                            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header bg-primary text-center text-light">Cúpon #2</div>
+                                <div class="card-body text-primary text-center">
+                                    <h5 class="card-title">45$</h5>
+                                    <p class="card-text">En la seccion de utilidades por un consumo mayor a 115$</p>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <input class="ml-1 form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header bg-primary text-center text-light">Cúpon #3</div>
+                                <div class="card-body text-primary text-center">
+                                    <h5 class="card-title">10$</h5>
+                                    <p class="card-text">En la seccion de alimentos, frutas y verduras por un consumo mayor a 40$</p>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <input class="ml-1 form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-3">
+                            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header bg-primary text-center text-light">Cúpon #4</div>
+                                <div class="card-body text-primary text-center">
+                                    <h5 class="card-title">35$</h5>
+                                    <p class="card-text">En la seccion de utilidades por un consumo mayor a 100$</p>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <input class="ml-1 form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-100 text-center">
+                            <button type="button" class="btn btn-primary mt-3 px-4">Enviar encuesta</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <footer class="mt-4 p-1 text-center justify-content-center bg-light text-primary">
+        <h6 class="w-100">Carlos Cardenas<br><small>Bootstrap - Netzun</small></h6>
+    </footer>
+</body>
+
+</html>
